@@ -1,3 +1,12 @@
+"""
+break_encryption.py     Ahmed Al Sunbati       Nov 3rd, 2025
+Description: Interactive tool for breaking monoalphabetic substitution ciphers. Supports
+             frequency analysis, manual mapping of cipher letters to plaintext, and
+             live preview of partial decryption.
+usage: 
+
+Citations: GeminiAI to help style the UI of the interactive loop (in the interactive_loop function)
+"""
 import sys
 from collections import defaultdict, Counter
 import string
