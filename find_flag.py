@@ -4,6 +4,7 @@ Description: This script is used to find the flag from the AP. It sets the dongl
              a specific channel, then sends a burst of packets with the encoded dartmouth ID and listens for replies.
              if captured a reply, it prints the flag.
 usage: sudo python3 ./find_flag.py <interface> <channel> <dartmouth-id>
+Citations: GeminiAI for refactoring code.
 """
 
 import sys

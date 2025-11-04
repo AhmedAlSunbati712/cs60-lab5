@@ -1,5 +1,6 @@
 #!/bin/bash
 # Usage: sudo ./start_monitor.sh <interface> <channel>
+# Citatations: GeminiAI for telling me to kill the wpa_supplicant and the NetworkManager
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: sudo $0 <interface> <channel>"

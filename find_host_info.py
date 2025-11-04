@@ -4,6 +4,7 @@ Description: Given the name of the dongle interface, this script scans all of th
              band to find the beacon frames transmitted by the AP. It targets frames with SSID == CS60, extracts
              sourcse BSSID, the channel it is transmitting on, and the clue in its vendor-specific element.
 usage: sudo python3 ./find_host_info <interface>
+Citations: GeminiAI for refactoring code.
 """
 import time
 from scapy.all import *

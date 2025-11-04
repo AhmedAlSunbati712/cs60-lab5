@@ -6,6 +6,7 @@ Description: Interactive tool for breaking monoalphabetic substitution ciphers. 
 usage: 
 
 Citations: GeminiAI to help style the UI of the interactive loop (in the interactive_loop function)
+           and for also refactoring the code.
 """
 import sys
 from collections import defaultdict, Counter
